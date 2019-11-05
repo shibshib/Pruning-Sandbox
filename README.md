@@ -24,7 +24,7 @@
 
 ### Accuracy degradation across the epochs when unit-pruning:
 
-![weight pruning](images/epoch_training_units.png)
+![unit pruning](images/epoch_training_units.png)
 
 ### It is evident that although weight-pruning took a long time (approximately 1.5 hours for 20 epochs on one Titan XP Graphics card), the accuracies are higher than the unit-pruning accuracies. 
 
@@ -32,10 +32,10 @@
 As a metric, accuracy only gives us one side of the many-sided die that is classification. It is important to also look at the degradation of the loss function for weight-pruning and unit-pruning to get a picture that is a little more hollistic. In this exercise, we used the categorical cross entropy loss function. 
 
 ### The weight pruning loss degredation
-![weight pruning](images/weight_pruning_loss.png)
+![weight pruning_loss](images/weight_pruning_loss.png)
 
 ### The unit pruning loss degredation
-![unit pruning](images/unit_pruning_loss.png)
+![unit pruning_loss](images/unit_pruning_loss.png)
 
 It is clear from the above graphs that the degredation of the unit pruning method is far harsher than the weight pruning, therefore we should ideally aim for weight pruning even though it may be more computationally intensive. 
 
