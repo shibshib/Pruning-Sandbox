@@ -1,7 +1,7 @@
 # pruning_challenge
 
-## How to run this notebook:
-Simply load this notebook in your Jupyter environment and run all cells.
+
+To run this notebook, simply load this notebook in your Jupyter environment and run all cells.
 
 - Pruning is one of the methods for inference to efficiently produce models smaller in size, more memory-efficient, more power-efficient and faster at inference with minimal loss in accuracy, other such techniques being weight sharing and quantization.
 - Although weight pruning can be a rather computationally expensive process compared to unit pruning, it is evident from the accuracy curves that overall weight pruning performs better than unit pruning.
