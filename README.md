@@ -31,4 +31,11 @@
 ## Final thoughts
 As a metric, accuracy only gives us one side of the many-sided die that is classification. It is important to also look at the degradation of the loss function for weight-pruning and unit-pruning to get a picture that is a little more hollistic. In this exercise, we used the categorical cross entropy loss function. 
 
+### The weight pruning loss degredation
+![weight pruning](images/weight_pruning_loss.png)
+
+### The unit pruning loss degredation
+![unit pruning](images/unit_pruning_loss.png)
+
+It is clear from the above graphs that the degredation of the unit pruning method is far harsher than the weight pruning, therefore we should ideally aim for weight pruning even though it may be more computationally intensive. 
 
