@@ -10,11 +10,11 @@ To run this notebook, simply load this notebook in your Jupyter environment and 
 
 ### Weight-pruning accuracy as k% changes:
 
-![weight pruning](images/k-sparsity-weight.png)
+![weight pruning_accuracy](images/k-sparsity-weight.png)
 
 ### Unit-pruning accuracy as k% changes:
 
-![weight pruning](images/k-sparsity-unit.png)
+![unit pruning_accuracy](images/k-sparsity-unit.png)
 
 ### As is evident from the graphs above, the amount of degredation of accuracy when weight pruning is much less than unit pruning
 
@@ -22,11 +22,11 @@ To run this notebook, simply load this notebook in your Jupyter environment and 
 
 ### Accuracy degradation across the epochs when weight-pruning:
 
-![weight pruning](images/epoch_training_weights.png)
+![weight pruning_loss](images/epoch_training_weights.png)
 
 ### Accuracy degradation across the epochs when unit-pruning:
 
-![unit pruning](images/epoch_training_units.png)
+![unit pruning_loss](images/epoch_training_units.png)
 
 ### It is evident that although weight-pruning took a long time (approximately 1.5 hours for 20 epochs on one Titan XP Graphics card), the accuracies are higher than the unit-pruning accuracies. 
 
