@@ -26,7 +26,7 @@ To run this notebook, simply load this notebook in your Jupyter environment and 
 
 ### Accuracy degradation across the epochs when unit-pruning:
 
-![unit pruning_loss](images/epoch_training_units.png)
+![unit pruning_loss](images/epoch-training-units.png)
 
 ### It is evident that although weight-pruning took a long time (approximately 1.5 hours for 20 epochs on one Titan XP Graphics card), the accuracies are higher than the unit-pruning accuracies. 
 
