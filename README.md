@@ -1,5 +1,6 @@
-# pruning_challenge
+# Optimal brain damage
 
+How many neurons can we remove from a neural net before performance suffers?
 
 To run this notebook, simply load this notebook in your Jupyter environment and run all cells.
 
